@@ -1,6 +1,6 @@
 import { db } from "@/lib/firebase";
 import { collection, onSnapshot, deleteDoc, doc } from "firebase/firestore";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import toast from "react-hot-toast";
 
@@ -60,3 +60,4 @@ const NoteList = () => {
 };
 
 export default NoteList;
+
